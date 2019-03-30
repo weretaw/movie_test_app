@@ -1,0 +1,31 @@
+.ui-table-wrapper{
+  table{
+      thead{
+          th{
+              color: rgba(0, 0, 0, 0.54);
+              font-weight: 500;
+          }
+      }
+      tr{
+          border-bottom:1px solid rgba(0, 0, 0, 0.12);
+          align-items: center;
+          padding: 0 24px;
+          min-height: 40px;
+          box-sizing: border-box;
+
+          th,td{
+              flex: 1;
+              overflow: hidden;
+              word-wrap: break-word;
+              color: rgba(0, 0, 0, 0.87);
+              font-size: 0.9rem;
+          }
+      }
+  }
+}
+
+.addMovie{
+    position: absolute;
+    top: 15px;
+    display: flex;
+}
